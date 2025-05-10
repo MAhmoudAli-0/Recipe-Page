@@ -1,0 +1,128 @@
+/* start-root */
+:root {
+  /* color */
+  --White: hsl(0, 0%, 100%);
+  --Stone-100: #f3e6d8;
+  --Stone-150: #e4ded8;
+  --Stone-600: #5f574e;
+  --Stone-900: #302d2c;
+  --Brown-800: #854632;
+  --Rose-800: #7b284f;
+  --Rose-50: #fff5fa;
+  /* font.family */
+  --ff-main: "Outfit", sans-serif;
+  --ff-heading: "Young Serif", serif;
+  /* font size */
+  --fs-main: 1rem;
+  --fs-heading: 1.75rem;
+  /* font weight */
+  --fw-400: 400;
+  --fw-600: 600;
+  --fw-700: 700;
+}
+/* fonts */
+@font-face {
+  font-family: "Young Serif";
+  src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+  font-family: "Outfit";
+  src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+/* end-root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* start-page */
+body {
+  font-family: var(--ff-main);
+  font-weight: var(--fw-400);
+  font-size: var(--fs-main);
+  line-height: 1.3;
+  color: var(--Stone-600);
+  background-color: var(--Stone-100);
+  padding: 2.5rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+  font-family: var(--ff-heading);
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-400);
+  color: var(--Brown-800);
+  margin-bottom: 1.5rem;
+}
+.recipe-title {
+  font-size: 2.75rem;
+  color: var(--Stone-900);
+}
+.prep-title {
+  font-size: 1.27rem;
+  font-weight: var(--fw-600);
+  color: var(--Rose-800);
+}
+span {
+  font-weight: var(--fw-700);
+}
+.data-cell {
+  font-weight: var(--fw-600);
+  color: var(--Rose-800);
+}
+ul,
+ol {
+  padding: 0 1rem;
+}
+li {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+}
+li::marker {
+  color: var(--Brown-800);
+  font-weight: var(--fw-600);
+}
+/* layout-style */
+.wrapper {
+  display: grid;
+  place-items: center;
+}
+.recipe-wrapper {
+  max-width: 50em;
+  background-color: var(--White);
+  margin: 4rem 0;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+.recipe-img {
+  max-width: 100%;
+  border-radius: 1.5rem;
+  margin: 10px 0 20px 0;
+}
+hr {
+  margin: 2rem;
+  outline: none;
+  border: none;
+  height: 1px;
+  background-color: var(--Stone-150);
+}
+.recipe-prep {
+  background-color: var(--Stone-100);
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 0.8rem;
+}
+table {
+  width: 100%;
+  margin-top: 2rem;
+}
+tr {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--Stone-150);
+  padding: 0.7rem;
+}
