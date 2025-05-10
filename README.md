@@ -6,10 +6,10 @@ This project presents a simple omelette recipe with cooking instructions, ingred
 ## 📸 Screenshots
 
 ### Desktop View
-![Desktop design](assets/images/desktop-design.jpg)
+![Desktop design](design/desktop-design.jpg)
 
 ### Mobile View
-![Mobile design](assets/images/mobile-design.jpg)
+![Mobile design](design/mobile-design.jpg)
 
 ## 🔧 Built With
 
@@ -34,4 +34,4 @@ To view the project:
 2. Open `index.html` in your browser
 
 ```bash
-git clone https://github.com/your-username/simple-omelette-recipe.git
+git clone https://github.com/your-MahmoudAli-0/simple-omelette-recipe.git
