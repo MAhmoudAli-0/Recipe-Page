@@ -34,4 +34,4 @@ To view the project:
 2. Open `index.html` in your browser
 
 ```bash
-https://github.com/your-MahmoudAli-95/simple-omelette-recipe.git
+https://github.com/MahmouAli-95/Recipe-page.git
