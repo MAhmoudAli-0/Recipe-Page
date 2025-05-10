@@ -34,4 +34,4 @@ To view the project:
 2. Open `index.html` in your browser
 
 ```bash
-git clone https://github.com/your-MahmoudAli-0/simple-omelette-recipe.git
+git clone https://github.com/your-MahmoudAli-95/simple-omelette-recipe.git
