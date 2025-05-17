@@ -33,5 +33,5 @@ To view the project:
 1. Clone the repository or download the ZIP
 2. Open `index.html` in your browser
 
-```bash
+https://recipe-page-seven-sooty.vercel.app/
 https://github.com/MahmoudAli-95/Recipe-page.git
